@@ -1,0 +1,101 @@
+.ourNumbers_outer {
+  background: rgb(202, 199, 199);
+}
+
+.ourNumbers_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 50px;
+}
+
+.ourNumber_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #243d30;
+}
+
+.ourNumber_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #434856;
+  margin-top: 20px;
+}
+
+.ourNumbers_number {
+  display: flex;
+  align-items: center;
+}
+
+.ournumber_numberinfo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 51px;
+  color: #f36638;
+}
+
+.ournumber_numbercontent {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1f29;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .ourNumbers_inner {
+    padding: 100px 0;
+  }
+
+  .ourNumber_heading {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .ourNumber_p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  .ournumber_numberinfo {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .ournumber_numbercontent {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ourNumbers_inner {
+    padding: 50px 0;
+  }
+
+  .ourNumbers_inner {
+    flex-direction: column;
+  }
+
+  .ourNumbers_number {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ourNumbers_inner {
+    align-items: baseline;
+  }
+}
