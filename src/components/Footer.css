@@ -1,0 +1,122 @@
+.footer_outer {
+  background: rgba(78, 126, 100, 0.07);
+}
+
+.footer_bottom {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #59667d;
+  padding-bottom: 5px;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+
+.footer_companyinfo,
+.footer_overview,
+.footer_contact {
+  flex: 0.3;
+}
+
+.footer_companyinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.company_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #59667d;
+}
+
+.footer_overview_heading,
+.footer_contact_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #023a51;
+}
+
+.footer_overview ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #023a51;
+}
+
+.footer_overview ul li a:hover {
+  color: #2cbc63;
+  border-bottom: 1px solid #2cbc63;
+}
+
+.footer_overview ul li {
+  margin-top: 10px;
+}
+
+.footer_contact_contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_contact_contact a {
+  width: 100%;
+}
+
+.footer_contact_contact a button {
+  background: rgba(78, 126, 100, 0.63);
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #023a51;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_inner {
+    flex-direction: column;
+  }
+
+  .footer_companyinfo,
+  .footer_overview {
+    margin-bottom: 30px;
+  }
+
+  .footer_inner {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer_overview_heading,
+  .footer_contact_heading {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .company_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .footer_overview ul li a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

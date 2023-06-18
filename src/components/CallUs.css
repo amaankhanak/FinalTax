@@ -1,0 +1,89 @@
+.callus_outer {
+  background: #fcc24d;
+}
+
+.callus_inner {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.callus_content_left {
+  flex: 0.5;
+}
+
+.callusQR {
+  flex: 0.4;
+}
+
+.callus_mainhead {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #000000;
+  text-align: center;
+}
+
+.callus_content {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #060606;
+  margin-top: 20px;
+}
+
+.callus_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.callus_button a button {
+  background: #243d30;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .callus_inner {
+    flex-direction: column;
+  }
+
+  .callus_mainhead {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .callus_inner {
+    padding: 40px 0;
+  }
+
+  .callus_mainhead {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .callus_content {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+}
