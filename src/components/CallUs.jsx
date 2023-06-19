@@ -1,5 +1,6 @@
 import React from "react";
 import "./CallUs.css";
+import qr from "./images/qr.png";
 
 function CallUs() {
   return (
@@ -16,16 +17,13 @@ function CallUs() {
               Contact us – Planning to outsourced accounting services “Where
               Accuracy is redefined” – OffshoreTask 
             </div>
+            <div className="qr_code">
+              <img src={qr} alt="" />
+            </div>
             <div className="callus_button">
               <a href="#">
                 <button>Let's Work Together</button>
               </a>
-            </div>
-          </div>
-          <div className="callusQR">
-            <div className="callus_code">QR CODE</div>
-            <div className="callus_codeText">
-              Scan this QR code to contact us
             </div>
           </div>
         </div>

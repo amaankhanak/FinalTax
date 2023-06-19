@@ -8,14 +8,6 @@
   justify-content: space-around;
 }
 
-.callus_content_left {
-  flex: 0.5;
-}
-
-.callusQR {
-  flex: 0.4;
-}
-
 .callus_mainhead {
   font-family: "Inter";
   font-style: normal;
@@ -58,6 +50,13 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.qr_code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 992px) {
