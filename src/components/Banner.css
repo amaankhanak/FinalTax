@@ -1,0 +1,141 @@
+.banner_outer {
+  background-image: url(./images/banner_bg.png);
+  width: 100%;
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner_outer {
+    background-image: url(./images/banner_bg_big_tab.png);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .banner_outer {
+    background-image: url(./images/banner_bg_small_tab.png);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner_outer {
+    background-image: url(./images/banner_bg_mobile.png);
+  }
+}
+@media only screen and (max-width: 500px) {
+  .banner_outer {
+    background-image: url(./images/banner_bg_mobile_small.png);
+  }
+}
+
+.banner_outer .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.banner_inner {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner_text_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 78px;
+  color: #000000;
+}
+
+.banner_text_p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #596989;
+  margin-top: 10px;
+}
+
+.banner_button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.banner_button a button {
+  background: #243d30;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.banner_button .second_button {
+  background: #fcc24d;
+  color: #ffffff;
+  color: #243d30;
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner_inner {
+    justify-content: space-around;
+  }
+  .banner_text_heading {
+    font-size: 56px;
+    line-height: 62px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner_text_heading {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .banner_text_heading {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 40px;
+  }
+
+  .banner_text_p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .banner_button {
+    flex-direction: column;
+  }
+
+  .banner_button a {
+    width: 100%;
+  }
+
+  .banner_button a button {
+    margin-right: 0px;
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

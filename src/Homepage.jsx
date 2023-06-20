@@ -6,10 +6,12 @@ import OurNumbers from "./components/OurNumbers";
 import Footer from "./components/Footer";
 import CallUs from "./components/CallUs";
 import ITRform from "./components/ITRform";
+import Banner from "./components/Banner";
 
 function Homepage() {
   return (
     <>
+      <Banner />
       <About />
       <OurServices />
       <ITRform />
