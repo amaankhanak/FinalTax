@@ -1,0 +1,44 @@
+.itr_form_outer {
+  background: rgba(78, 126, 100, 0.07);
+}
+
+.itr_form_inner {
+  padding: 60px 0;
+}
+
+.itr_form_heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #243d30;
+  margin-bottom: 30px;
+}
+
+.itr_form_img {
+  overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.itr_form_img::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.itr_form_img {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.itr_form_inner p {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  line-height: 16px;
+  color: #80889e;
+}
