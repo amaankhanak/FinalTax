@@ -67,7 +67,8 @@
 }
 
 .banner_button a button {
-  background: #243d30;
+  background: #fcc24d;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 4px;
   font-family: "Montserrat";
@@ -80,15 +81,8 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #ffffff;
   margin-right: 5px;
   padding: 10px;
-}
-
-.banner_button .second_button {
-  background: #fcc24d;
-  color: #ffffff;
-  color: #243d30;
 }
 
 @media only screen and (max-width: 1200px) {

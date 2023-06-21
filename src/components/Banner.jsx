@@ -15,10 +15,7 @@ function Banner() {
             </div>
           </div>
           <div className="banner_button">
-            <a href="">
-              <button>get estimated quote</button>
-            </a>
-            <a href="">
+            <a href="#">
               <button className="second_button">Free Consultation</button>
             </a>
           </div>

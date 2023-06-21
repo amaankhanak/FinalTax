@@ -19,3 +19,23 @@ button {
   border: none;
   outline: none;
 }
+
+a {
+  color: inherit;
+}
+
+textarea {
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+textarea:active {
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
