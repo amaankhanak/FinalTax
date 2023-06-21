@@ -34,10 +34,10 @@ function OurServices() {
                 <div className="ourService_boxImage">
                   <img src={img2} alt="" />
                 </div>
-                <div className="ourService_boxHeading">Payroll</div>
+                <div className="ourService_boxHeading">Auditing</div>
                 <div className="ourService_boxContent">
-                  Taking utmost care of your Human Assets and their timely
-                  appreciation.
+                  Ensuring accuracy and trust: Auditing for a transparent and
+                  accountable financial landscape
                 </div>
               </div>
               <div className="ourServices_box">
@@ -54,23 +54,20 @@ function OurServices() {
                 <div className="ourService_boxImage">
                   <img src={img4} alt="" />
                 </div>
-                <div className="ourService_boxHeading">
-                  Management Reporting
-                </div>
+                <div className="ourService_boxHeading">Tax planning</div>
                 <div className="ourService_boxContent">
-                  Our analytic solutions would help you in making better
-                  informed business decisions and management reporting
+                  Maximize savings, minimize stress. Unlock the power of tax
+                  planning for a brighter financial future
                 </div>
               </div>
               <div className="ourServices_box">
                 <div className="ourService_boxImage">
                   <img src={img5} alt="" />
                 </div>
-                <div className="ourService_boxHeading">Virtual CFO</div>
+                <div className="ourService_boxHeading">Investment advisory</div>
                 <div className="ourService_boxContent">
-                  We provide you with experienced support for tax returns,
-                  strategic planning, accounts payable and receivable, and
-                  detailed forecasting. 
+                  Unlock your financial potential with expert guidance:
+                  Investing made simple, profitable, and personalized.
                 </div>
               </div>
               <div className="ourServices_box">

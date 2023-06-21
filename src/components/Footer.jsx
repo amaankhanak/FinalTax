@@ -9,8 +9,8 @@ function Footer() {
           <div className="footer_companyinfo">
             <div className="company_logo"></div>
             <div className="company_text">
-              Taking control of your taxes by learning about Basics of Taxes,
-              Income Tax Return, TDS & TCS and Transfer pricing.
+              Simply Personal finance and Taxes of each individual by filing
+              Income Tax returns and proper Tax planning
             </div>
           </div>
           <div className="footer_overview">
@@ -40,10 +40,10 @@ function Footer() {
             <div className="footer_contact_heading">Contact Info</div>
             <div className="footer_contact_contact">
               <a href="#">
-                <button>+91 7349688081</button>
+                <button>+91 9309457637</button>
               </a>
               <a href="#">
-                <button>controlledtaxes@gmail.com</button>
+                <button>finaltaxglobal@gmail.com</button>
               </a>
             </div>
           </div>

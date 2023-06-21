@@ -14,16 +14,10 @@ function CallUs() {
               <br /> +91-261-2631111
             </div>
             <div className="callus_content">
-              Contact us – Planning to outsourced accounting services “Where
-              Accuracy is redefined” – OffshoreTask 
+              Final Tax <i>“Figure out your own taxes”</i>
             </div>
             <div className="qr_code">
               <img src={qr} alt="" />
-            </div>
-            <div className="callus_button">
-              <a href="#">
-                <button>Let's Work Together</button>
-              </a>
             </div>
           </div>
         </div>

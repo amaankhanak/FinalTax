@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background: rgba(78, 126, 100, 0.07);
+}
+
 li {
   list-style: none;
 }

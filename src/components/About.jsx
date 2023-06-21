@@ -21,14 +21,25 @@ function About() {
 
             <div className="aboutus_content">
               <div className="aboutus_leftcontent">
-                We Help Entrepreneurs Build Their Dreams.
+                We help our clients to handle their Business or Profession tax
+                Compliances
               </div>
               <div className="aboutus_rightcontent">
-                Our mission is to simplify finances, save money and time for
-                millions of Indian businesses and people. We are a technology
-                company that builds trusted, useful and insightful platforms for
-                our clients to run their finances and improve their relationship
-                with money.
+                Founded in year 2016 by passionate Chartered Accountants who
+                wants to simply the personal finance and taxes of each
+                individuals who work in their business or profession so that we
+                can
+                <b>
+                  {" "}
+                  <i>Figure out their taxes</i>
+                </b>
+                <br /> <br />
+                We are specialized in Income tax filing services, providing
+                expert guidance and support to individuals and businesses. Our
+                team of professionals ensures accurate and timely filing,
+                maximizing your deductions and minimizing your tax liability.
+                Trust us to handle your tax needs with efficiency and
+                reliability.
               </div>
             </div>
           </div>
@@ -43,8 +54,8 @@ function About() {
               </div>
               <div className="aboutlast_content_p">
                 <p>Income Tax Returns</p>
-                <p>Tax deducted & collected at Source</p>
-                <p>Transfer pricing</p>
+                <p>Advance tax payment & Tax liability</p>
+                <p>Annual information statement (AIS) and 26 AS </p>
               </div>
             </div>
           </div>

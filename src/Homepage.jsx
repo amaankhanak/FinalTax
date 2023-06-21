@@ -9,6 +9,7 @@ import ITRform from "./components/ITRform";
 import Banner from "./components/Banner";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Consultation from "./components/Consultation";
+import Pricing from "./components/Pricing";
 
 function Homepage() {
   return (
@@ -17,7 +18,8 @@ function Homepage() {
       <About />
       <OurServices />
       <WhyChooseUs />
-      <ITRform />
+      <Pricing />
+      {/* <ITRform /> */}
       <OurNumbers />
       <Testimonials />
       <Consultation />

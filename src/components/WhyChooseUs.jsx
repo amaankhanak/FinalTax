@@ -10,7 +10,8 @@ function WhyChooseUs() {
           <div className="whychooseus_heading">
             <div className="whychooseus_mainhead">Why Choose Us?</div>
             <div className="whychooseus_p">
-              Outsource OffshoreTask to let you focus on your business.
+              Final Tax will let you on know how to make control of your
+              Financial future with Smart personal finance management
             </div>
           </div>
           <div className="whychooseus_content">

@@ -13,18 +13,16 @@ function OurNumbers() {
             </div>
           </div>
           <div className="ourNumbers_number">
-            <div className="ournumber_numberinfo">47</div>
+            <div className="ournumber_numberinfo">5K+</div>
             <div className="ournumber_numbercontent">Satisfied Clients</div>
           </div>
           <div className="ourNumbers_number">
-            <div className="ournumber_numberinfo">96</div>
-            <div className="ournumber_numbercontent">Projects Completed</div>
+            <div className="ournumber_numberinfo">1 Crore+</div>
+            <div className="ournumber_numbercontent">Tax Saved</div>
           </div>
           <div className="ourNumbers_number">
-            <div className="ournumber_numberinfo">5+</div>
-            <div className="ournumber_numbercontent">
-              Years of Outsourcing Experiences
-            </div>
+            <div className="ournumber_numberinfo">7+</div>
+            <div className="ournumber_numbercontent">Years of Experience</div>
           </div>
         </div>
       </div>

@@ -8,7 +8,8 @@ function Banner() {
         <div className="banner_inner">
           <div className="banner_text">
             <div className="banner_text_heading">
-              We help you avoid <br /> tax blunders
+              We help you to
+              <br /> figure out your taxes
             </div>
             <div className="banner_text_p">
               One-stop solutions for all your outsourced activities.

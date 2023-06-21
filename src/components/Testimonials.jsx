@@ -21,49 +21,56 @@ function Testimonials() {
           <div className="testimonials_contentContainer">
             <div className="individual_testimonials">
               <div className="individual_testimonial_content">
-                OffshoreTask took brilliant care of my business’s need for
-                accounting, hence freeing up my team from confusions &
-                inefficiency, resulting in improved focus on our core offering
-                and shooting up of profits.
+                I recently utilized the income tax filing services provided by
+                Final Tax, and I must say that I am thoroughly impressed with
+                their outstanding live return filing service, expertise and
+                professionalism. Their assistance in filing my income tax return
+                was truly exceptional, and I highly recommend their services to
+                anyone in need of reliable and efficient tax filing support
               </div>
               <div className="individual_testimonial_name">
-                Ashish Kamdar <br />
-                (Muscat, Sultanate of Oman)
+                Mr. Pratim Sarkar <br />
+                (Software engineer, Google, Bangalore)
               </div>
             </div>
             <div className="individual_testimonials">
               <div className="individual_testimonial_content">
-                Very responsive & effective team, solving my every query and
-                communicating flawlessly. All the services were provided after
-                giving me every detail of the promise and living up to it.
+                Overall service provided by Final tax was outstanding. The
+                entire team was friendly, courteous, and genuinely interested in
+                helping my business succeed. Their personalized approach made me
+                feel like a valued client, and they went above and beyond to
+                ensure my satisfaction
               </div>
               <div className="individual_testimonial_name">
-                RANEET RANA <br />
-                (United Kingdom)
+                Mr. Dhruv Jagetiya <br />
+                (Software engineer, Uber, Bangalore)
               </div>
             </div>
             <div className="individual_testimonials">
               <div className="individual_testimonial_content">
-                I am very happy that I have decided to outsource to you guys. I
-                sing the praises of outsourcing to India to many people. Good
-                Job Offshore task, I appreciate that keep it up with your all
-                Hard work”
+                I have been using Final Tax income tax filing services for
+                several years now, and I am extremely satisfied with their
+                expertise and professionalism. Their team of tax experts is
+                highly knowledgeable and has helped me navigate through complex
+                tax laws and regulations effortlessly.
               </div>
               <div className="individual_testimonial_name">
-                Ankit Desai <br />
-                (Dubai, United Arab Emirates)
+                Mrs. Nimisha Shah <br />
+                (Software engineer, TIBCO, Pune)
               </div>
             </div>
             <div className="individual_testimonials">
               <div className="individual_testimonial_content">
-                They use the latest softwares and team with proficiency ensures
-                that the scope for errors in my business account is absent. I
-                highly recommend their consultation and can vouch that anyone
-                who avails it won’t regret it.
+                The team at Final Tax meticulously reviewed my financial
+                records, leaving no stone unturned. They were meticulous in
+                their approach, ensuring that every detail was accurate and
+                accounted for. This attention to detail not only provided peace
+                of mind but also minimized the risk of future audits or
+                penalties.
               </div>
               <div className="individual_testimonial_name">
-                BIRAL SHAH <br />
-                (United KINGDOM)
+                Mr. Ashutosh Mishra <br />
+                (Software engineer, Google, Gurgaon)
               </div>
             </div>
           </div>
