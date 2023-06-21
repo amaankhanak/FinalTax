@@ -60,6 +60,11 @@
   margin-bottom: 20px;
 }
 
+.pricing_pro {
+  color: #fff;
+  background: #fcc24d;
+}
+
 .pricing_info {
   font-family: "Montserrat";
   font-style: normal;

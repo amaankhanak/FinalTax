@@ -10,10 +10,12 @@ import Banner from "./components/Banner";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Consultation from "./components/Consultation";
 import Pricing from "./components/Pricing";
+import Navbar from "./components/Navbar";
 
 function Homepage() {
   return (
     <>
+      <Navbar />
       <Banner />
       <About />
       <OurServices />

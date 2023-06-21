@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="aboutOuter">
       <div className="container">
-        <div className="aboutInner">
+        <div className="aboutInner" id="about">
           <div className="aboutinner_upper">
             <p>We are here for your tax relief</p>
           </div>

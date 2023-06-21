@@ -10,7 +10,7 @@ import img6 from "./images/services/6.png";
 function OurServices() {
   return (
     <>
-      <div className="ourService_outer">
+      <div className="ourService_outer" id="services">
         <div className="container">
           <div className="ourServices_inner">
             <div className="ourServices_heading">Our Services</div>

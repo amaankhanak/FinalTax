@@ -14,7 +14,7 @@
 
 .footer_inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 70px 0;
 }
 
@@ -27,6 +27,15 @@
 .footer_companyinfo {
   display: flex;
   flex-direction: column;
+}
+
+.company_logo {
+  margin-bottom: 10px;
+}
+
+.company_logo img {
+  height: 80px;
+  width: 220px;
 }
 
 .company_text {

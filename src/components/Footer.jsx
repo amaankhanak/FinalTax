@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import logo from "./images/logo.jpeg";
 
 function Footer() {
   return (
@@ -7,13 +8,15 @@ function Footer() {
       <div className="container">
         <div className="footer_inner">
           <div className="footer_companyinfo">
-            <div className="company_logo"></div>
+            <div className="company_logo">
+              <img src={logo} alt="" />
+            </div>
             <div className="company_text">
               Simply Personal finance and Taxes of each individual by filing
               Income Tax returns and proper Tax planning
             </div>
           </div>
-          <div className="footer_overview">
+          {/* <div className="footer_overview">
             <div className="footer_overview_heading">Overview</div>
             <ul>
               <li>
@@ -35,15 +38,18 @@ function Footer() {
                 <a href="#">ITR – Research and News</a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="footer_contact">
             <div className="footer_contact_heading">Contact Info</div>
             <div className="footer_contact_contact">
-              <a href="#">
+              <a href="tel:+919309457637">
                 <button>+91 9309457637</button>
               </a>
-              <a href="#">
+              <a href="mailto:finaltaxglobal@gmail.com">
                 <button>finaltaxglobal@gmail.com</button>
+              </a>
+              <a href="#">
+                <button>Hinjewadi, Pune</button>
               </a>
             </div>
           </div>

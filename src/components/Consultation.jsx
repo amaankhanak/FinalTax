@@ -9,12 +9,12 @@ function Consultation() {
     "General",
     "ITR filing & assistance",
     "Tax planning",
-    "Investment products & Advisory",
+    "Investment Advisory",
     "Auditing",
   ];
 
   return (
-    <div className="consultation_outer">
+    <div className="consultation_outer" id="consultation">
       <div className="container">
         <div className="consultation_inner">
           <div className="consultation_text">
@@ -24,7 +24,11 @@ function Consultation() {
             <div className="consultation_contact">
               <div className="consultation_contact_heading">Contact</div>
               <div className="consultation_contact_email">
-                <a href="#">finaltaxglobal@gmail.com</a>
+                <a href="mailto:finaltaxglobal@gmail.com">
+                  finaltaxglobal@gmail.com
+                </a>
+                <br />
+                <a href="tel:+919309457637">+91 9309457637</a>
               </div>
             </div>
             <div className="consultation_hours">
