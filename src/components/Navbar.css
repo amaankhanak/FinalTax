@@ -1,6 +1,6 @@
 .navbar_outer {
   width: 100%;
-  background: rgb(114, 163, 135, 0.3);
+  background: #f5f5f5;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   padding: 10px 0;
   position: fixed;
@@ -9,12 +9,10 @@
   right: 0;
   z-index: 100;
 }
-
-.logo img {
-  width: 180px;
-  height: 65px;
+.navbar_logo img {
+  height: 60px;
+  width: 150px;
 }
-
 .main_nav {
   display: flex;
   justify-content: space-between;
@@ -76,7 +74,7 @@
 }
 
 .mobile_menu_toggle {
-  color: white;
+  color: #2b4336;
   display: none;
 }
 

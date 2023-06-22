@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Navbar.css";
-import logo from "./images/logo.jpeg";
+import logo from "./images/logo.png";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import { FaBars, FaInstagram } from "react-icons/fa";
@@ -18,10 +18,8 @@ function Navbar() {
       <div className="navbar_outer">
         <div className="container navbar_container">
           <nav className="main_nav">
-            <div className="logo">
-              <Link to="/">
-                <img src={logo} alt="" className="navbar-logo-img" />
-              </Link>
+            <div className="navbar_logo">
+              <img src={logo} alt="" />
             </div>
             <div className="menu_link">
               <ul>
