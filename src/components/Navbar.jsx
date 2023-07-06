@@ -40,7 +40,7 @@ function Navbar() {
                 </li>
                 <li>
                   <div className="instagram_link">
-                    <Link to="https://instagram.com/finaltax?igshid=ZDc4ODBmNjlmNQ==">
+                    <Link to="https://www.instagram.com/finaltax.co.in/?igshid=ZDc4ODBmNjlmNQ%3D%3D">
                       <FaInstagram />
                     </Link>
                   </div>
