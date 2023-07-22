@@ -4,6 +4,7 @@ import "./Consultation.css";
 import DropDown from "./DropDown";
 import emailjs from "@emailjs/browser";
 
+
 function Consultation() {
   const [selected, setSelected] = useState("");
   const [formData, setFormData] = useState({
@@ -32,14 +33,18 @@ function Consultation() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    const serviceID= process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateID= process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const userID= process.env.REACT_APP_EMAILJS_USER_ID;
+
 
     // Send email using emailjs library
     emailjs
       .send(
-        process.env.SERVICE_ID,
-        process.env.TEMPLATE_ID,
+        serviceID,
+        templateID,
         formData,
-        process.env.USER_ID
+        userID
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
